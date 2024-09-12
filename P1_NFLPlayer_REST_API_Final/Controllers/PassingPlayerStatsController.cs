@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Components;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using P1_NFLPlayer_REST_API_Final.POCO;
-using System;
-using System.Collections.Generic;
 
 namespace P1_NFLPlayer_REST_API_Final.Controllers
 {
