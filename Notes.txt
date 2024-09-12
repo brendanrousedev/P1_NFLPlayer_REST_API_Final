@@ -1,0 +1,15 @@
+Project 1 Notes
+
+TODO
+
+BUGS
+
+NOTES
+Necessary Packages
+- Microsoft.EntityFrameworkCore.SqlServer
+- Microsoft.EntityFrameworkcore.Tools
+- 
+
+Scaffolding
+-Command:
+dotnet ef dbcontext scaffold "server=[serverName];database=[DBName];integrated security=true;TrustServerCertificate=true" Microsoft.EntityFrameworkCore.SqlServer -o POCO -f
