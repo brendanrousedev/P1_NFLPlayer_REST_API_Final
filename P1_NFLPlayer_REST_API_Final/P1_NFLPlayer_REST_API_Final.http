@@ -1,0 +1,6 @@
+@P1_NFLPlayer_REST_API_Final_HostAddress = http://localhost:5166
+
+GET {{P1_NFLPlayer_REST_API_Final_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
