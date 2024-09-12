@@ -1,6 +1,17 @@
 Project 1 Notes
 
 TODO
+-DefensePlayerStats Controller
+-Game Controller
+-KickingStats Controller
+- KickReturnStats Controller
+- PassingPlayerStats Controller
+- Player Controller
+-PuntingStats Controller
+-PuntReturn Stats Controller
+-ReceivingPlayerStats Controller
+-RushingPlayerStats Controller
+-TeamStats Controller
 
 BUGS
 

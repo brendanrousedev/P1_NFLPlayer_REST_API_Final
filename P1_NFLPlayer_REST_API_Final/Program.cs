@@ -1,7 +1,13 @@
+using Microsoft.EntityFrameworkCore;
+using P1_NFLPlayer_REST_API_Final.POCO;
+using P1_NFLPlayer_REST_API_Final.Controllers;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 
+builder.Services.AddDbContext<Nfl2024playerDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
